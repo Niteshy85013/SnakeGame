@@ -120,14 +120,17 @@ public class GamePanel extends JPanel implements ActionListener{
         if(x[0] < 0) {
             running = false;
         }
+
         //check if head touches right border
         if(x[0] > SCREEN_WIDTH) {
             running = false;
         }
+
         //check if head touches top border
         if(y[0] < 0) {
             running = false;
         }
+
         //check if head touches bottom border
         if(y[0] > SCREEN_HEIGHT) {
             running = false;
@@ -138,7 +141,8 @@ public class GamePanel extends JPanel implements ActionListener{
         }
     }
     public void gameOver(Graphics g) {
-        //Score
+
+        //Scores
         g.setColor(Color.red);
         g.setFont( new Font("Ink Free",Font.BOLD, 40));
         FontMetrics metrics1 = getFontMetrics(g.getFont());
