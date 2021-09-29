@@ -12,6 +12,7 @@ public class Login implements ActionListener {
     JButton btn_login,btn_cancel,btn_reg;
     Font fon1,fon2;
 
+    // Creating Constructor
     public Login(){
         fr=new JFrame("Login Page");
         fr.getContentPane().setBackground(Color.orange);
