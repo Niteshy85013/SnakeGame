@@ -83,6 +83,7 @@ public class GamePanel extends JPanel implements ActionListener{
             y[i] = y[i-1];
         }
 
+        // Using switch case Statement
         switch(direction) {
             case 'U':
                 y[0] = y[0] - UNIT_SIZE;
