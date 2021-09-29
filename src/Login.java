@@ -76,6 +76,8 @@ public class Login implements ActionListener {
         fr.setLayout(null);
         fr.setVisible(true);
     }
+
+    // Method calling
     public static void main(String[] args){
 
         new Login();
@@ -100,7 +102,7 @@ public class Login implements ActionListener {
 
 
                     fr.dispose();
-                     new GameFrame();
+                     new GameFrame(); // Class Method is called
                 }
 
                 else{
