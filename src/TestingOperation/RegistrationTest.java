@@ -1,7 +1,6 @@
 package TestingOperation;
 
-import java.nio.file.attribute.UserPrincipal;
-
+// Testing Registration
 public class RegistrationTest {
 
     public static void main(String[]args){
