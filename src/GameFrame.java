@@ -15,7 +15,7 @@ public class GameFrame extends JFrame {
 
     }
 
-    // Calling the main class
+    // game class
     public class Game {
         public void main(String args[]) {
             new Game();
